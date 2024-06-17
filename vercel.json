@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/(.*)",
-            "destination": "/"
+            "source": "./test-blog-template(.*)",
+            "destination": "./test-blog-template"
         }
     ]
 }

@@ -1,1 +1,9 @@
 Only use sass | sscss
+
+
+ "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "./"
+        }
+    ]

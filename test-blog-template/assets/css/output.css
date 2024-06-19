@@ -1,5 +1,171 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #e7e7e7;
+  color: #000;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+}
+header p a:hover {
+  color: hsl(226, 100%, 64%);
+}
+
+main {
+  width: 84%;
+  margin: 0 auto;
+}
+main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+main .container h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+main .container p {
+  font-size: 1.2rem;
+}
+main .container p a:hover {
+  color: hsl(226, 100%, 64%);
+}
+main .content img {
+  width: 100%;
+  height: 600px;
+}
+main .content1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+main .content1 .card {
+  width: 70%;
+}
+main .content1 .card h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+main .content1 .card h1 a {
+  text-decoration: none;
+  color: #000;
+}
+main .content1 .card h1 a:hover {
+  border-bottom: 5px solid #000;
+}
+main .content1 .card p {
+  font-size: 1.3rem;
+}
+main .content1 .card .user {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+main .content1 .card .user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+main .content2 {
+  margin-top: 200px;
+}
+main .content2 h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+main .content2 .card1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+main .content2 .card1 h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+  font-weight: 500;
+}
+main .content2 .card1 h1 a {
+  text-decoration: none;
+  color: #000;
+}
+main .content2 .card1 h1 a:hover {
+  border-bottom: 5px solid #000;
+}
+main .content2 .card1 p {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  width: 80%;
+}
+main .content2 .img img {
+  width: 86%;
+  height: 300px;
+}
+main .content2 .img .user {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+main .content2 .img .user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 84%;
+  margin: 0 auto;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+footer .container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+footer .container .button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.5rem;
+}
+footer .container .button p a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+footer .container .button p:hover a {
+  border-bottom: 3px solid #000;
+}
+footer .container .button button {
+  padding: 10px 20px;
+  background-color: #000;
+}
+footer .container .button button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+footer .container .button button:hover {
+  background-color: #fff;
+}
+footer .container .button button:hover a {
+  color: #000;
 }
 
 /*# sourceMappingURL=output.css.map */

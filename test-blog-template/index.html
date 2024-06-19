@@ -1,20 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/output.css" />
     <title>Home</title>
-</head>
+  </head>
 
-<body>
-    <a href="./pages/another-post.html">Another page</a>
-    <a href="./pages/posts.html">Posts Page</a>
-    <h1>hello world</h1>
-    <img src="./images/post-1.webp" alt="banner-image">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequatur itaque nesciunt deleniti repellat,
-        aperiam dolorum expedita, animi neque similique molestiae. Excepturi ea aliquam corporis nostrum amet tempore
-        autem obcaecati.</p>
-</body>
+  <body>
+    <header>
+      <p>
+        The source code for this blog is
+        <a href="https://github.com/saddiabu4/test-blog-template">
+          available on GitHub.</a
+        >
+      </p>
+    </header>
 
+    <main>
+      <div class="container">
+        <h1>Blog.</h1>
+        <p>
+          A statically generated blog example using
+          <a href="https://nextjs.org/">Next.js</a>
+          <a href="https://wordpress.org/">WordPress</a>.
+        </p>
+      </div>
+
+      <div class="content">
+        <img
+          src="./images/claudio-schwarz-ZuT6efbmt8U-unsplash-scaled.webp"
+          alt=""
+        />
+      </div>
+      <div class="content1">
+        <div class="card">
+          <h1>
+            <a href="./pages/another-post.html"
+              >From Server-side Rendering to Static Generation</a
+            >
+          </h1>
+          <p>June 2, 2022</p>
+        </div>
+        <div class="card">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid
+            dubitas igitur mutare principia naturae? Ita multo sanguine profuso
+            in laetitia et in victoria est mortuus. Omnia contraria, quos etiam
+            insanos esse vultis. Hinc ceteri particulas arripere conati suam
+            quisque videro voluit afferre sententiam. Quis non odit sordidos,
+            vanos, leves, futtiles? Quasi ego id curem, quid ille aiat aut
+            neget.
+          </p>
+          <p class="user">
+            <img
+              src="./images/Screenshot 2024-06-17 212941.png"
+              alt=""
+            />UserName LastName
+          </p>
+        </div>
+      </div>
+
+      <div class="content2">
+        <h1>More Stories</h1>
+        <div class="card1">
+          <div class="img">
+            <a href="./pages/another-post.html"
+              ><img src="./images/post-1.webp" alt=""
+            /></a>
+            <h1>
+              <a href="./pages/another-post.html"
+                >Learn How to Pre-render Pages Using Static Generation with
+                Next.js</a
+              >
+            </h1>
+            <p>June 2, 2022</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit hoc
+              ultimum bonorum, quod nunc a me defenditur; Vitae autem degendae
+              ratio maxime quidem illis placuit quieta. Duo Reges: constructio
+              interrete. Nam quid possumus facere melius?
+            </p>
+            <p class="user">
+              <img
+                src="./images/Screenshot 2024-06-17 212941.png"
+                alt=""
+              />UserName LastName
+            </p>
+          </div>
+          <div class="img">
+            <a href="./pages/another-post.html"
+              ><img src="./images/post-1.webp" alt=""
+            /></a>
+            <h1>
+              <a href="./pages/another-post.html">Deploying Next.js Apps</a>
+            </h1>
+            <p>June 2, 2022</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit hoc
+              ultimum bonorum, quod nunc a me defenditur; Vitae autem degendae
+              ratio maxime quidem illis placuit quieta. Duo Reges: constructio
+              interrete. Nam quid possumus facere melius?
+            </p>
+            <p class="user">
+              <img
+                src="./images/Screenshot 2024-06-17 212941.png"
+                alt=""
+              />UserName LastName
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <h1>Statically Generated with Next.js.</h1>
+        <div class="button">
+          <button><a href="https://nextjs.org/">Read Documentation</a></button>
+          <p><a href="https://github.com/saddiabu4/test-blog-template">View on GitHub</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

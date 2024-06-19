@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "./test-blog-template(.*)",
-            "destination": "./test-blog-template"
+            "destination": "./test-blog-template.html"
         }
     ]
 }
